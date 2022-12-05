@@ -1,0 +1,47 @@
+html, body {
+  margin: 0 auto;
+  max-width: 1440px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #4b4545;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin: 11px 0px;
+    font-size: 25px;
+    border-bottom: 1px solid #0000004f;
+    padding-bottom: 11px;
+}
+span{
+    color: #675d5d;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+
+}
