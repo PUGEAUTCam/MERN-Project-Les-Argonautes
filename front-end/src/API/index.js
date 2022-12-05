@@ -1,8 +1,11 @@
 import axios from "axios";
 
+const apiPath = "https://argonauteapi.onrender.com/api"
+//const apiPath = "http://localhost:5500"
+
 export const API_ROUTES = {
-    create: `http://localhost:5500/api/argonaute`,
-    getAll: `http://localhost:5500/api/argonaute/getAllArgonautes`
+    create: `${apiPath}/argonaute`,
+    getAll: `${apiPath}/argonaute/getAllArgonautes`
 }
 
 export const createArgonaute = async (form) => {
