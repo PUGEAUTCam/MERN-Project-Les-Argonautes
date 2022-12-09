@@ -26,7 +26,7 @@ Once the database is created, you should have :
 ## Configuration of environment variables ##
 At the root of the backend folder, create an ".env" file in which your MongoDB connection credentials and environment variables :  
 
-KEY_MONGODB = 'mongodb+srv://"dbUserName":"dbPassword"@groupomania.6i8a9gh.mongodb.net/Groupomania'  
+KEY_MONGODB = 'mongodb+srv://DBUser:DBPassword@argonautes.r3ot0ca.mongodb.net/?retryWrites=true&w=majority'  
 PORT= 5500  
 ACCESS_TOKEN_SECRET= 'random character string'  
 
