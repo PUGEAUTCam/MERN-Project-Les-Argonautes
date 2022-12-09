@@ -12,6 +12,24 @@ Back-end : NodeJS, Express and for the database MongoDB with this framework Mong
 You will need to have Node and npm installed locally on your machine.
 Then Clone this repository. 
 
+## Databse installation : MongoDB ## 
+Go to the [MongoDb](https://www.mongodb.com/home) website and create an account.  
+Once the account is created, create your database, making sure to configure it so that the user can run the application on his own machine with this configuration :   
+
+`"Network Access -> Allow access from anywhere"`    
+
+Once the database is created, you should have :  
+* A database connection ID  
+* A database connection password  
+
+
+## Configuration of environment variables ##
+At the root of the backend folder, create an ".env" file in which your MongoDB connection credentials and environment variables :  
+
+KEY_MONGODB = 'mongodb+srv://"dbUserName":"dbPassword"@groupomania.6i8a9gh.mongodb.net/Groupomania'  
+PORT= 5500  
+ACCESS_TOKEN_SECRET= 'random character string'  
+
 ## Back end Installation ##
 Run npm install.
 From the "back" folder of the project, run the server with npm start. 
